@@ -1,0 +1,21 @@
+@import "../../variables.scss";
+
+
+.headertext:hover {
+    color: $oceanblue !important;
+    transition: 350ms;
+}
+
+.headertext:active {
+    color: $oceanblue !important;
+}
+
+
+.navlinks {
+    .headerlink {
+        text-decoration: none;
+        color: #EFEFEF;
+    }
+    width: 12vw;
+    justify-content: space-between;
+}
