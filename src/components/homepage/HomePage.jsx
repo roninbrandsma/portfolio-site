@@ -4,16 +4,17 @@ import { Link } from "react-router-dom";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
+import "../homepage/Homepage.scss"
 
 const HomePage = () => {
     return(
-        <>            
+        <>
             <div className="homeCards">
                 <div className="homeCardDiv">
                     <Card className="Cards" style={{backgroundColor:'#212529'}}>
-                        <h3 className="subtitle"></h3>    
+                        <h3 className="subtitle"></h3>
                         <Card.Body></Card.Body>
-                    </Card>  
+                    </Card>
                 </div>
 
                 <div className="homeLinkDiv">
@@ -28,7 +29,7 @@ const HomePage = () => {
                                 </Card.Text>
                                 <Card.Text>Last updated 3 mins ago</Card.Text>
                             </Card.ImgOverlay>
-                        </Card>                    
+                        </Card>
                     </Link>
 
                     <Link to="/contact">
@@ -42,12 +43,12 @@ const HomePage = () => {
                                 </Card.Text>
                                 <Card.Text>Last updated 3 mins ago</Card.Text>
                             </Card.ImgOverlay>
-                        </Card>                    
+                        </Card>
                     </Link>
                 </div>
             </div>
         </>
     )
-} 
+}
 
 export default HomePage
