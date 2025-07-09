@@ -1,4 +1,3 @@
-import React from "react";
 
 const AboutPage = () => {
     return(
@@ -18,30 +17,10 @@ const AboutPage = () => {
             </div>
 
             <div className="gallery">
-                <div className="galleryItem1">
-                    <h3 style={{color:"white"}}>asf</h3>
-                </div>
-                <div className="galleryItem2">
-                    <h3 style={{color:"white"}}>asf</h3>
-                </div>
-                <div className="galleryItem3">
-                    <h3 style={{color:"white"}}>asf</h3>
-                </div>
-                <div className="galleryItem4">
-                    <h3 style={{color:"white"}}>asf</h3>
-                </div>
-                <div className="galleryItem5">
-                    <h3 style={{color:"white"}}>asf</h3>
-                </div>
-                <div className="galleryItem6">
-                    <h3 style={{color:"white"}}>asf</h3>
-                </div>
-                <div className="galleryItem7">
-                    <h3 style={{color:"white"}}>asf</h3>
-                </div>
+
             </div>
         </>
     )
-} 
+}
 
 export default AboutPage

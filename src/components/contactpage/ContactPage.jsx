@@ -18,7 +18,7 @@ const ContactPage = () => {
                                     <Form.Control type="name" placeholder="Name"/>
                                 </FloatingLabel>
                             </Form.Group>
-                            
+
                             <Form.Group className="email" >
                                 <FloatingLabel controlId="formBasicEmail" label="Email">
                                     <Form.Control type="email" placeholder="Enter email" />

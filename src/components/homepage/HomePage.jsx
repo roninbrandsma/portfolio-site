@@ -1,9 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
-import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-
+import code from '../../assets/code.png'
 import "../homepage/Homepage.scss"
 
 const HomePage = () => {
@@ -20,15 +19,7 @@ const HomePage = () => {
                 <div className="homeLinkDiv">
                     <Link to="/portfolio">
                         <Card className="homeLinkTop">
-                            <Card.Img src="holder.js/598px163" alt="Card image" />
-                            <Card.ImgOverlay>
-                                <Card.Title>Card title</Card.Title>
-                                <Card.Text>
-                                    This is a wider card with supporting text below as a natural lead-in
-                                    to additional content. This content is a little bit longer.
-                                </Card.Text>
-                                <Card.Text>Last updated 3 mins ago</Card.Text>
-                            </Card.ImgOverlay>
+                            <Card.Img src={code} alt="Card image" />
                         </Card>
                     </Link>
 
