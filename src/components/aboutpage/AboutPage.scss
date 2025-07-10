@@ -1,33 +1,39 @@
+.aboutPageDiv {
+    width: auto;
+    height: auto;
+}
+
 .title {
-  color: #EFEFEF;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+    color: #efefef;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    justify-self: center;
 }
 
 .aboutTitleDiv {
-  justify-content: center;
-  align-content: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .aboutInfo {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .portfolioTitle {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin-top: 7vh;
-  margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
 }
 
 .gallery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2vw;
-  padding-left: 10vw;
-  padding-right: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
