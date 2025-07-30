@@ -1,22 +1,24 @@
-@import "../../variables.scss";
+@import '../../variables.scss';
 
+.header {
+  position: fixed;
+  width: 100%;
+}
 
 .headertext:hover {
-    color: $oceanblue !important;
-    transition: 350ms;
+  color: $oceanblue !important;
+  transition: 350ms;
 }
 
 .headertext:active {
-    color: $oceanblue !important;
+  color: $oceanblue !important;
 }
-
 
 .navlinks {
-    .headerlink {
-        text-decoration: none;
-        color: #EFEFEF;
-    }
-    width: 12vw;
-    justify-content: space-between;
+  .headerlink {
+    text-decoration: none;
+    color: #efefef;
+  }
+  width: 12vw;
+  justify-content: space-between;
 }
-

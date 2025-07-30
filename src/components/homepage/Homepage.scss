@@ -1,50 +1,37 @@
-@import "../../variables.scss";
+@import '../../variables.scss';
 
-.subtitle {
-  color: #EFEFEF;
-  text-align: left;
-  margin-left: 15%;
-  margin-top: 1vh;
-}
-
-.Cards {
-  width: 30vw;
-}
-
-.homeCards {
-  height: 600px;
-  margin-top: 20vh;
-}
-
-.homeCardDiv {
+.homeDiv {
   display: flex;
-  float: left;
-  justify-content: center;
-  width: 600px;
-  height: 400px;
-  margin-left: 12vw;
+  justify-self: center;
+  align-self: center;
+  justify-content: space-between;
+  height: 100vh;
 }
 
-.homeLinkDiv {
+.homeDescriptionCont {
+  background-color: white;
+  justify-self: center;
+  align-self: center;
+  margin-right: 7vw;
+}
+
+.homeLinksCont {
   display: flex;
-  float: right;
   flex-direction: column;
-  vertical-align: top;
-  width: 600px;
-  height: 400px;
-  margin-right: 12vw;
+  justify-self: center;
+  align-self: center;
+  align-content: center;
+  margin-left: 7vw;
 }
 
-.homeLinkTop {
-  display: flex !important;
-  margin-bottom: 35px;
-  width: 600px;
-  height: auto !important;
+.firstLinkCard {
+  display: inline-block;
+  width: 750px;
+  height: 260px;
 }
 
-.homeLinkBtm {
-  display: flex !important;
-  margin-top: 35px;
-  width: 600px;
-  height: 165px !important;
+.secondLinkCard {
+  display: inline-block;
+  width: 750px;
+  height: 260px;
 }

@@ -1,5 +1,6 @@
-import { Col, Row, Card } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import '../aboutpage/AboutPage.scss';
+import { PortfolioComponent } from './PortfolioComponent';
 
 const AboutPage = () => {
     return (
@@ -19,19 +20,37 @@ const AboutPage = () => {
             </div>
 
             <div className="gallery">
-                <Row>
-                    <Col>
-                        <Card>
-                            <Card.Img className="cardImg" />
-                            <Card.Title className="cardTitle"></Card.Title>
-                            <Card.Text className="cardText"></Card.Text>
-                        </Card>
+                <Row className="galleryRow">
+                    <Col className="galleryCol">
+                        <PortfolioComponent
+                            title={'Title'}
+                            text={'Text'}
+                            img={''}
+                        />
                     </Col>
-                    <Col></Col>
+                    <Col className="galleryCol">
+                        <PortfolioComponent
+                            title={'Title'}
+                            text={'Text'}
+                            img={''}
+                        />
+                    </Col>
                 </Row>
-                <Row>
-                    <Col></Col>
-                    <Col></Col>
+                <Row className="galleryRow">
+                    <Col className="galleryCol">
+                        <PortfolioComponent
+                            title={'Title'}
+                            text={'Text'}
+                            img={''}
+                        />
+                    </Col>
+                    <Col className="galleryCol">
+                        <PortfolioComponent
+                            title={'Title'}
+                            text={'Text'}
+                            img={''}
+                        />
+                    </Col>
                 </Row>
             </div>
         </>

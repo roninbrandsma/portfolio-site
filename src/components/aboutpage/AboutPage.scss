@@ -33,7 +33,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2vw;
     padding-left: 10vw;
     padding-right: 10vw;
+}
+
+.galleryRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryCol {
+    justify-content: center;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.portfolioItem {
+    width: 35vw;
+    height: 32vh;
 }
