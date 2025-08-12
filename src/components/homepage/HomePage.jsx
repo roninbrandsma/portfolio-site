@@ -1,9 +1,8 @@
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import 'react-multi-carousel/lib/styles.css';
-import code from '../../assets/code.png';
 import '../homepage/Homepage.scss';
-import { CardImg, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 const HomePage = () => {
   return (
@@ -15,9 +14,7 @@ const HomePage = () => {
         <Container className="homeLinksCont">
           <div className="card-columns">
             <Link to="/portfolio">
-              <Card className="firstLinkCard">
-                <CardImg src={code} />
-              </Card>
+              <Card className="firstLinkCard" />
             </Link>
             <Link to="/contact">
               <Card className="secondLinkCard" />

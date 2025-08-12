@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 import HomePage from './components/homepage/HomePage';
 import AboutPage from './components/aboutpage/AboutPage';
 import ContactPage from './components/contactpage/ContactPage';
+import Footer from './components/footer/Footer';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/portfolio" element={<AboutPage />}></Route>
         <Route path="/contact" element={<ContactPage />}></Route>
       </Routes>
+      <Footer />
     </div>
   );
 }

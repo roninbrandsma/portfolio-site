@@ -9,10 +9,18 @@
 }
 
 .homeDescriptionCont {
-  background-color: white;
+  display: flex;
+  flex-direction: column;
   justify-self: center;
   align-self: center;
+  align-items: end;
   margin-right: 7vw;
+}
+
+.description {
+  justify-self: center;
+  width: 30vw;
+  height: 53vh;
 }
 
 .homeLinksCont {
@@ -20,18 +28,19 @@
   flex-direction: column;
   justify-self: center;
   align-self: center;
-  align-content: center;
   margin-left: 7vw;
 }
 
 .firstLinkCard {
   display: inline-block;
-  width: 750px;
-  height: 260px;
+  width: 30vw;
+  height: 25vh;
+  margin-bottom: 2vh;
 }
 
 .secondLinkCard {
   display: inline-block;
-  width: 750px;
-  height: 260px;
+  justify-self: end;
+  width: 30vw;
+  height: 25vh;
 }
