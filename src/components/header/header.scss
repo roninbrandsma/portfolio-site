@@ -1,7 +1,14 @@
 @import '../../variables.scss';
 
 .header {
+  position: sticky;
+  top: 0;
   width: 100%;
+  background-color: $darkgrey;
+}
+
+.headertext {
+  color: white;
 }
 
 .headertext:hover {

@@ -9,7 +9,7 @@ import './header.scss';
 const Header = () => {
   return (
     <>
-      <Navbar className="header" bg="dark" variant="dark">
+      <Navbar className="header">
         <Container>
           <Navbar.Brand href="/" className="headertext">
             Ronin Brandsma
