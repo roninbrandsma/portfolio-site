@@ -21,6 +21,8 @@
   justify-self: center;
   width: 30vw;
   height: 53vh;
+  // background-color: $royalblue;
+  border: 2px solid $chillired;
 }
 
 .homeLinksCont {
@@ -32,15 +34,33 @@
 }
 
 .firstLinkCard {
+  position: relative;
   display: inline-block;
   width: 30vw;
   height: 25vh;
   margin-bottom: 2vh;
 }
 
+.firstLinkImg {
+  width: 30vw;
+  height: 25vh;
+  object-fit: cover;
+  border: 2px solid $chillired;
+}
+
+.firstLinkTitle {
+  position: absolute;
+  font-size: 25px;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+  color: white;
+  bottom: 6px;
+  left: 16px;
+}
 .secondLinkCard {
   display: inline-block;
   justify-self: end;
   width: 30vw;
   height: 25vh;
+  // background-color: ;
+  border: 2px solid $chillired;
 }

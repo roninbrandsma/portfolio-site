@@ -4,7 +4,7 @@
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: $darkgrey;
+  background-color: #b24c63;
 }
 
 .headertext {
@@ -12,12 +12,12 @@
 }
 
 .headertext:hover {
-  color: $oceanblue !important;
+  color: $chillired !important;
   transition: 350ms;
 }
 
 .headertext:active {
-  color: $oceanblue !important;
+  color: white !important;
 }
 
 .navlinks {
